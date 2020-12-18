@@ -40,13 +40,13 @@
 #include <linux/i2c-dev.h> 
 
 /* Gumstix Overo */
-static char i2c_bus[] = "/dev/i2c-3";
+/*static char i2c_bus[] = "/dev/i2c-3"*/;
 
 /* RPi version 1 */
 /* static char i2c_bus[] = "/dev/i2c-0"; */
 
 /* RPi version 2 */
-/* static char i2c_bus[] = "/dev/i2c-1"; */
+static char i2c_bus[] = "/dev/i2c-1"; 
 
 
 /* some local functions */
